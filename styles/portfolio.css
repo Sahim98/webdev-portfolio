@@ -112,14 +112,25 @@ header {
 }
 
 /* main section starts */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section starts */
 
 .about {
-  /* margin: 230px; */
-  margin: 130px 230px;
-  padding: 221px;
-
+  padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
+  margin: 130px 0 ;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+    text-align: center;
 }
