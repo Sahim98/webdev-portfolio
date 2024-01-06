@@ -14,8 +14,10 @@
 
 /* Nav related styles */
 
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
