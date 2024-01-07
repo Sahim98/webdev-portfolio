@@ -14,10 +14,9 @@
 
 /* Nav related styles */
 
-
 body {
-  font-family: 'Lato', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h3 {
@@ -170,7 +169,35 @@ main section {
   font-weight: 700;
 }
 
-.resume-container{
-    display: flex;
-    gap: 50px;
+.resume-container {
+  display: flex;
+  gap: 50px;
 }
+
+.resume-item-description,.resume-item-institute {
+  color: #474747;
+}
+
+.resume-item-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.resume-item-institute{
+  margin-bottom: 20px;
+  margin-top: 0px;
+
+}
+
+.resume-container hr{
+  margin: 30px 0px;
+}
+
+.download-cv{
+  text-align: center;
+  margin: 50px 0px 113px 0px;
+  /* justify-content: center; */
+  /* background-color: #474747; */
+}
+
